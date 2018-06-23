@@ -9,9 +9,9 @@ body {
 h1 {
 
 	color: white;
-	background: coral;
-	border: inset, blue;
-	padding: 20px, 0px;
+	background: red;
+	border: 3px solid blue;
+	padding: 20px 0px;
 	margin: 40px;
 }
 
