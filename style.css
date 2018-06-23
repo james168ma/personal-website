@@ -3,13 +3,14 @@ body {
 	padding-top: 5%;
     padding-left: 20%;
 	font-family: "Arial", serif;
+	background-color: red;
 
 }
 
 h1 {
 
 	color: white;
-	background: red;
+	background-color: green;
 	border: 3px solid blue;
 	padding: 20px 0px;
 	margin: 40px;
