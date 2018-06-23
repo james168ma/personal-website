@@ -1,9 +1,18 @@
 body{
-	
-	padding-top: 10%;
-	padding-right: 20%;
-	padding-left: 30%;
-	font-family: Arial;
+
+	padding: 10% 30% 0% 30%;
+	font-family: "Arial", serif;
+
+}
+
+h1 {
+
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	background: coral;
+	border: inset blue;
+	padding: 20px 0px;
+	margin: 40px;
 }
 
 a{
