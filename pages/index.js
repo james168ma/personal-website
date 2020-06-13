@@ -10,15 +10,11 @@ export default function Home({ ids }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
+      <h1 className={utilStyles.heading2Xl}>Welcome!</h1>
       <section className={utilStyles.headingMd}>
-        <p>Hi! I'm a CS student at UCLA and I'm going through this tutorial to learn Next.js!</p>
         <p>
-          (This is a sample Website - you'll be building a site like this on {' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
+          Looks like you've found your way to my website. It's made with Next.js and React.js. Feel free to click around and explore!
         </p>
-      </section>
-      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Blog</h2>
       </section>
     </Layout>
   );
