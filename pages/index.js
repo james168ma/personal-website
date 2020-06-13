@@ -6,7 +6,7 @@ import { getSortedPostsData } from '../lib/subpages'
 
 export default function Home({ ids }) {
   return (
-    <Layout ids={ids} home={true}>
+    <Layout pageName={"Home"} ids={ids} home>
       <Head>
         <title>{siteTitle}</title>
       </Head>

@@ -1,13 +1,13 @@
 import Head from 'next/head'
-import styles from './layout.module.css'
-import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 import NavItem from './navItem'
+import styles from './layout.module.css'
+import utilStyles from '../styles/utils.module.css'
 
 const name = 'James'
 export const siteTitle = 'james168ma'
 
-export default function Layout({ ids, children, home }) {
+export default function Layout({ pageName, ids, children, home }) {
   return (
     <div className={styles.container}>
       <Head>
@@ -31,10 +31,10 @@ export default function Layout({ ids, children, home }) {
 
       <nav className={styles.navbar}>
         <ul className={styles.navbarNav}>
-          <NavItem link="/" text="Home" selected={true}/>  /*edit this later*/
+          <NavItem link="/" text="Home" selected={home}/>  /*edit this later*/
           {ids.map(id => {
             return (
-              <NavItem link={"/subpages/" + id} text={id} key={id}/>
+              <NavItem link={"/subpages/" + id} text={id} selected={pageName === id} key={id}/>
             )
           })}
         </ul>

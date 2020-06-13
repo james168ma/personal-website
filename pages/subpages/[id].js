@@ -8,9 +8,9 @@ import remark from 'remark'
 import html from 'remark-html'
 import { getSortedPostsData } from '../../lib/subpages'
 
-export default function SubPage({ contentHtml, ids, data }) {
+export default function SubPage({ id, contentHtml, ids, data }) {
   return (
-    <Layout home={false} ids={ids}>
+    <Layout pageName={id} home={false} ids={ids}>
       <Head>
         <title>{data.title}</title>
       </Head>
@@ -52,6 +52,7 @@ export async function getStaticProps({params: {id}}) {
 
   return ({
     props: {
+      id,
       contentHtml,
       ids,
       data: parsedMarkdown.data
