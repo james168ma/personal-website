@@ -1,0 +1,31 @@
+.navItem {
+  width: 100%;
+}
+
+.navLink {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 2rem;
+}
+
+.linkText {
+  display: block;
+  color: #9932CC;
+  filter: grayscale(100%) opacity(0.7);
+  transition: 200ms;
+}
+
+.linkText:hover {
+  filter: grayscale(0%) opacity(1);
+}
+
+.mark {
+  width: 4px;
+  height: 25px;
+  border-left: 4px solid #9932CC;
+  padding-left: 16px;
+  position: absolute;
+  left: 0;
+  margin-top: -3px;
+}

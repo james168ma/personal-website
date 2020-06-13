@@ -1,0 +1,43 @@
+.container {
+  max-width: 52rem;
+  padding: 0 1rem;
+  margin: 3rem auto 6rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headerImage {
+  width: 6rem;
+  height: 6rem;
+}
+
+.headHomeImage {
+  width: 8rem;
+  height: 8rem;
+}
+
+.backToHome {
+  margin: 3rem 0 0;
+  margin-left: 10rem
+}
+
+.navbar {
+  padding-top: 2rem;
+  width: 10rem;
+  height: 60vh;
+  position: fixed;
+  background-color: white;
+}
+
+.navbarNav {
+  list-style: none;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100;
+}
