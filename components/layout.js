@@ -14,7 +14,7 @@ export default function Layout({ pageName, ids, children, home }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <header className={styles.header}>
-        <a href="https://github.com/james168ma" ><img src="/images/GitHub-Mark-64px.png" className={styles.logo} /></a>
+        <a href="https://github.com/james168ma" ><img src="/images/GitHub_Logo.png" className={styles.logo} /></a>
         <nav className={styles.topNav} >
           <ul className={styles.topNavLinks}>
             <li>
@@ -34,9 +34,7 @@ export default function Layout({ pageName, ids, children, home }) {
             </li>
           </ul>
         </nav>
-        <Link href="/">
-          <a href="mailto:james168ma@gmail.com?subject=SweetWords"><button className={styles.button} >Contact Me!</button></a>
-        </Link>
+        <a href="mailto:james168ma@gmail.com"><button className={styles.button} >Contact Me!</button></a>
       </header>
 
       <div className={styles.container}>
