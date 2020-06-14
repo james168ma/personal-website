@@ -14,7 +14,7 @@ export default function Layout({ pageName, ids, children, home }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <header className={styles.header}>
-        <a href="https://github.com/james168ma" ><img src="/images/GitHub_Logo.png" className={styles.logo} /></a>
+        <a href="https://github.com/james168ma" ><img src="/images/GitHub_Logo.png" className={styles.githubLogo} /></a>
         <nav className={styles.topNav} >
           <ul className={styles.topNavLinks}>
             <li>

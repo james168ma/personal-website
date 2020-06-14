@@ -1,17 +1,19 @@
 .container {
   max-width: 52rem;
-  padding: 2rem 1rem;
+  padding: 0rem 1rem;
   margin: 3rem auto 6rem;
+  margin-top: 5rem;
 }
 
 .header {
   top: 0;
   width: 100vw;
+  height: 5rem;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
   align-items: center;
-  padding: 0.75rem 10%;
+  padding: 0.65rem 10%;
   background-color: #F5F5F5;
   position: fixed;
 }
@@ -28,11 +30,11 @@
 
 .backToHome {
   margin: 3rem 0 0;
-  margin-left: 10rem
+  margin-left: 11rem
 }
 
 .navbar {
-  padding-top: 2rem;
+  padding-top: 3rem;
   width: 10rem;
   height: 60vh;
   position: fixed;
@@ -46,9 +48,10 @@
   flex-direction: column;
   align-items: center;
   height: 100;
+  border-right: 0.2rem solid #E5E5E5;
 }
 
-.logo {
+.githubLogo {
   cursor: pointer;
   height: 3rem;
 }
