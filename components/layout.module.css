@@ -1,0 +1,100 @@
+.container {
+  max-width: 52rem;
+  padding: 0rem 1rem;
+  margin: 3rem auto 6rem;
+  margin-top: 5rem;
+}
+
+.header {
+  top: 0;
+  width: 100vw;
+  height: 5rem;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  align-items: center;
+  padding: 0rem 10%;
+  background-color: #F5F5F5;
+  position: fixed;
+}
+
+.headerImage {
+  width: 6rem;
+  height: 6rem;
+}
+
+.headHomeImage {
+  width: 8rem;
+  height: 8rem;
+}
+
+.backToHome {
+  margin: 3rem 0 0;
+  margin-left: 11rem
+}
+
+.navbar {
+  padding-top: 3rem;
+  width: 9.5rem;
+  height: 60vh;
+  position: fixed;
+  background-color: white;
+}
+
+.navbarNav {
+  list-style: none;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100;
+  border-right: 0.2rem solid #E5E5E5;
+}
+
+.logoLink {
+  padding-right: 2rem;
+}
+
+.lastLogoLink {
+  margin-right: auto;
+}
+
+.logo {
+  cursor: pointer;
+  height: 3rem;
+}
+
+.topNav {
+
+}
+
+.topNavLinks {
+  list-style: none;
+}
+
+.topNavLinks li {
+  display: inline-block;
+  padding: 0rem 2rem;
+}
+
+.topNavLinks li a {
+  transition: all 0.3s ease 0s;
+}
+
+.topNavLinks li a:hover {
+  color: rgb(221, 160, 221);
+}
+
+.button {
+  padding: 0.5rem 1.5rem;
+  background-color: rgb(221, 160, 221, 1);
+  border: none;
+  border-radius: 5rem;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  outline: none;
+}
+
+.button:hover {
+  background-color: rgb(221, 160, 221, 0.8);
+}
