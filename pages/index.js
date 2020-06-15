@@ -13,7 +13,8 @@ export default function Home({ ids }) {
       <h1 className={utilStyles.heading2Xl}>Welcome!</h1>
       <section className={utilStyles.headingMd}>
         <p>
-          Looks like you've found your way to my website. It's made with Next.js and React. Feel free to click around and explore!
+          Looks like you've found your way to my website. It's made with React
+          and the Next.js framework. Feel free to click around and explore!
         </p>
       </section>
     </Layout>

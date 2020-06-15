@@ -7,6 +7,22 @@ import utilStyles from '../styles/utils.module.css'
 const name = 'James'
 export const siteTitle = 'james168ma'
 
+// If I ever want to have a topNav
+// <nav className={styles.topNav} >
+//   <ul className={styles.topNavLinks}>
+//     <li>
+//       <Link href="/">
+//         <a>Service1</a>
+//       </Link>
+//     </li>
+//     <li>
+//       <Link href="/">
+//         <a>Service2</a>
+//       </Link>
+//     </li>
+//   </ul>
+// </nav>
+
 export default function Layout({ pageName, ids, children, home }) {
   return (
     <>
@@ -14,27 +30,9 @@ export default function Layout({ pageName, ids, children, home }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <header className={styles.header}>
-        <a href="https://github.com/james168ma" ><img src="/images/GitHub_Logo.png" className={styles.githubLogo} /></a>
-        <nav className={styles.topNav} >
-          <ul className={styles.topNavLinks}>
-            <li>
-              <Link href="/">
-                <a>Service1</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/">
-                <a>Service2</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/">
-                <a>Service3</a>
-              </Link>
-            </li>
-          </ul>
-        </nav>
-        <a href="mailto:james168ma@gmail.com"><button className={styles.button} >Contact Me!</button></a>
+        <a href="https://github.com/james168ma" className={styles.logoLink}><img src="/images/GitHub_Logo.png" className={styles.logo}/></a>
+        <a href="https://www.linkedin.com/in/james168ma" className={styles.logoLink + " " + styles.lastLogoLink}><img src="/images/LinkedIn_logo.png" className={styles.logo} /></a>
+        <a href="mailto:james168ma@gmail.com"><button className={styles.button} >Email Me</button></a>
       </header>
 
       <div className={styles.container}>
