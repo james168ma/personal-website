@@ -5,7 +5,7 @@ import Link from 'next/link'
 export default function NavItem({ text, link, selected }) {
   return (
     <li className={styles.navItem}>
-      <Link href={link}>
+      <Link href={link} as={ process.env.BACKEND_URL + '/about' }>
         <a className={styles.navLink}>
           { selected ?
             (
