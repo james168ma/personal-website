@@ -5,7 +5,7 @@ import Link from 'next/link'
 export default function NavItem({ text, link, selected }) {
   return (
     <li className={styles.navItem}>
-      <Link href={link} as={ `${process.env.ASSET_PREFIX}${link}` }>
+      <Link href={link}>
         <a className={styles.navLink}>
           { selected ?
             (

@@ -50,7 +50,7 @@ export default function Layout({ pageName, ids, children, home }) {
         <main>{children}</main>
         {!home && (
           <div className={styles.backToHome}>
-            <Link href="/" as={ `${process.env.ASSET_PREFIX}/`}>
+            <Link href="/">
               <a>← Back to home</a>
             </Link>
           </div>
