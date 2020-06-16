@@ -1,20 +1,39 @@
 .container {
   max-width: 52rem;
   padding: 0rem 1rem;
-  margin: 3rem auto 6rem;
-  margin-top: 5rem;
+  margin: 4rem auto 6rem;
+}
+
+@media only screen and (min-width: 600px) {
+  .container {
+    margin: 5rem auto 6rem;
+  }
+  .logoLink {
+    margin-right: 2rem;
+  }
+  .header {
+    padding: 0rem 10%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .logoLink {
+    margin-right: 1rem;
+  }
+  .header {
+    padding: 0rem 3%;
+  }
 }
 
 .header {
   top: 0;
   width: 100vw;
-  height: 5rem;
+  height: 4rem;
   display: flex;
   justify-content: flex-end;
   flex-direction: row;
   align-items: center;
-  padding: 0rem 10%;
-  background-color: #F5F5F5;
+  background-color: var(--header-color);
   position: fixed;
 }
 
@@ -34,25 +53,27 @@
 }
 
 .navbar {
-  padding-top: 3rem;
+  display: block;
   width: 9.5rem;
-  height: 60vh;
+  padding-top: 1rem;
+  height: 100vh;
   position: fixed;
   background-color: white;
 }
 
 .navbarNav {
+  width: 9.5rem;
   list-style: none;
   margin: 0;
-  display: flex;
   flex-direction: column;
   align-items: center;
+  display: flex;
   height: 100;
-  border-right: 0.2rem solid #E5E5E5;
+  border-right: 0.2rem solid var(--nav-separator-color);
 }
 
 .logoLink {
-  padding-right: 2rem;
+  /* margin-right: 2rem; */
 }
 
 .lastLogoLink {
@@ -61,7 +82,7 @@
 
 .logo {
   cursor: pointer;
-  height: 3rem;
+  height: 2.5rem;
 }
 
 .topNav {
@@ -97,4 +118,46 @@
 
 .button:hover {
   background-color: rgb(221, 160, 221, 0.8);
+}
+
+.mobileNavButton {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  height: 2.5rem;
+  width: 2.5rem;
+  padding: 0rem;
+  margin-right: 1rem;
+  background-color: var(--header-color);
+}
+
+.mobileNavButtonImg {
+  height: 2.5rem;
+}
+
+.mobileNavbarNone {
+  display: none;
+}
+
+.mobileNavbarShow {
+  display: block;
+}
+
+.mobileNavbar {
+  width: 12rem;
+  padding-top: 1rem;
+  height: 90vh;
+  position: fixed;
+  background-color: white;
+  border-right: 0.2rem solid var(--nav-separator-color);
+}
+
+.mobileNavbarNav {
+  width: 9.5rem;
+  list-style: none;
+  margin: 0;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  height: 100;
 }

@@ -3,6 +3,10 @@
   --text-secondary: #ececec;
   --bg-primary: #23232e;
   --bg-secondary: #141418;
+  --header-color: #F5F5F5;
+  --highlight-color: #9932CC;
+  --scrollbar-color: #A9A9A9;
+  --nav-separator-color: #E5E5E5;
 }
 
 html,
@@ -25,12 +29,28 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background: #A9A9A9;
+  background: var(--scrollbar-color);
+}
+
+/* small screens */
+@media only screen and (max-width: 600px) {
+  main {
+    margin-left: 0rem;
+    padding-top: 1rem;
+  }
+}
+
+/* large screens */
+@media only screen and (min-width: 600px) {
+  main {
+    margin-left: 11rem;
+    padding: 1rem;
+    padding-top: 0rem;
+  }
 }
 
 main {
-  margin-left: 11rem;
-  padding: 1rem;
+
 }
 
 * {
@@ -45,7 +65,7 @@ a {
 
 a:hover {
   text-decoration: underline;
-  color: #9932CC;
+  color: var(--highlight-color);
 }
 
 img {
