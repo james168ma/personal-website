@@ -103,6 +103,7 @@ export default class Layout extends React.Component {
             }
           </SubnavSelector>
           <NavItem link="/subpages/Blog" text="Blog" selected={this.props.blog || this.props.blogPost}/>
+          <NavItem link="/documents/JamesMa2020Resume.pdf" target="_blank" text="Resume"/>
         </ul>
       </nav>
     )
@@ -128,8 +129,8 @@ export default class Layout extends React.Component {
               </svg>
             </button>
           }
-          <a href="https://github.com/james168ma" className={styles.logoLink + " " + styles.firstLogoLink}><img src={githubLogo} className={styles.logo}/></a>
-          <a href="https://www.linkedin.com/in/james168ma" className={styles.logoLink + " " + styles.lastLogoLink}><img src="/images/LinkedIn_logo.png" className={styles.logo} /></a>
+          <a href="https://github.com/james168ma" target="_blank" className={styles.logoLink + " " + styles.firstLogoLink}><img src={githubLogo} className={styles.logo}/></a>
+          <a href="https://www.linkedin.com/in/james168ma" target="_blank" className={styles.logoLink + " " + styles.lastLogoLink}><img src="/images/LinkedIn_logo.png" className={styles.logo} /></a>
           <a href="mailto:james168ma@gmail.com"><button className={styles.button} >Email Me</button></a>
         </header>
 
