@@ -11,7 +11,7 @@ import utilStyles from '../../../styles/utils.module.css'
 
 export default function Post({ id, contentHtml, ids, data }) {
   return (
-    <Layout pageName={id} ids={ids}>
+    <Layout blogPost pageName={id} ids={ids}>
       <Head>
         <title>{data.title}</title>
       </Head>

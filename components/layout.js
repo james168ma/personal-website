@@ -91,7 +91,7 @@ export default class Layout extends React.Component {
         <ul className={ulClass}>
           <NavItem link="/" text="Home" selected={this.props.home}/>
           <NavItem link="/subpages/About" text="About" selected={this.props.about}/>
-          <SubnavSelector text="Projects" selected={!this.props.home && !this.props.blog && !this.props.about} toggleNav={() => this.toggleNavWidth()}>
+          <SubnavSelector text="Projects" selected={this.props.project} toggleNav={() => this.toggleNavWidth()}>
             {
               this.props.ids.map(id => {
                 return (
@@ -100,7 +100,7 @@ export default class Layout extends React.Component {
               })
             }
           </SubnavSelector>
-          <NavItem link="/subpages/Blog" text="Blog" selected={this.props.blog}/>
+          <NavItem link="/subpages/Blog" text="Blog" selected={this.props.blog || this.props.blogPost}/>
         </ul>
       </nav>
     )
@@ -124,7 +124,14 @@ export default class Layout extends React.Component {
         <div className={styles.container}>
           {navBar}
           <main>{this.props.children}</main>
-          {!this.props.home && (
+          {this.props.blogPost && (
+            <div className={styles.backToHome}>
+              <Link href="/subpages/Blog">
+                <a>← Back to Blog</a>
+              </Link>
+            </div>
+          )}
+          {!this.props.home && !this.props.blogPost && (
             <div className={styles.backToHome}>
               <Link href="/">
                 <a>← Back to home</a>

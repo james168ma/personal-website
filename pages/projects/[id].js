@@ -9,7 +9,7 @@ import { getSortedData } from '../../lib/pages'
 
 export default function SubPage({ id, contentHtml, ids, data }) {
   return (
-    <Layout pageName={id} ids={ids}>
+    <Layout project pageName={id} ids={ids}>
       <Head>
         <title>{data.title}</title>
       </Head>
