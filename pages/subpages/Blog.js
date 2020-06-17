@@ -2,11 +2,6 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Layout from '../../components/layout'
 import Date from '../../components/date'
-import fs from 'fs';
-import path from 'path';
-import matter from 'gray-matter'
-import remark from 'remark'
-import html from 'remark-html'
 import { getSortedData, getSortedPostsData } from '../../lib/pages'
 import utilStyles from '../../styles/utils.module.css'
 
@@ -39,21 +34,6 @@ export default function Blog({ ids, allPostsData }) {
       </section>
     </Layout>
   )
-}
-export async function getStaticPaths() {
-
-  const files = fs.readdirSync('posts')
-
-  const paths = files.map(filename => ({
-    params: {
-      id: filename.replace(".md", "")
-    }
-  }))
-
-  return {
-    paths,
-    fallback: false
-  }
 }
 
 export async function getStaticProps() {
