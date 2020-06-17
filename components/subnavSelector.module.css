@@ -13,11 +13,11 @@
   display: block;
   color: var(--highlight-color);
   filter: grayscale(100%) opacity(0.7);
-  transition: 200ms;
+  transition: var(--transition-speed);
 }
 
 .selectedLinkText {
-  filter: grayscale(0%); opacity: (0.7);
+  filter: grayscale(0%) opacity(0.7);
 }
 
 .linkText:hover {
@@ -48,5 +48,5 @@
 .subnavContent {
   height: 0;
   overflow: hidden;
-  transition: height 200ms ease-out;
+  transition: height var(--transition-speed) ease;
 }

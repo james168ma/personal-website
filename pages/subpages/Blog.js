@@ -13,8 +13,12 @@ export default function Blog({ ids, allPostsData }) {
       </Head>
       <h1 className={utilStyles.headingXl}>My Blog</h1>
       <section className={utilStyles.headingMd}>
-        <p>This is my blog, and I'll probably periodically post random stuff here from time to time.</p>
-        <p>Below are temporary filler posts so it doesn't look too empty :)</p>
+        <p>
+          This is my blog, and I'll probably periodically post random stuff here from time to time.
+        </p>
+        <p>
+          This is an in-progress page of my website, so the blog posts aren't actually blog posts.
+        </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
