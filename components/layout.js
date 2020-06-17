@@ -90,16 +90,17 @@ export default class Layout extends React.Component {
       <nav className={navClass} ref={this.navRef}>
         <ul className={ulClass}>
           <NavItem link="/" text="Home" selected={this.props.home}/>
-          <SubnavSelector text="Projects" selected={!this.props.home && !this.props.blog} toggleNav={() => this.toggleNavWidth()}>
+          <NavItem link="/subpages/About" text="About" selected={this.props.about}/>
+          <SubnavSelector text="Projects" selected={!this.props.home && !this.props.blog && !this.props.about} toggleNav={() => this.toggleNavWidth()}>
             {
               this.props.ids.map(id => {
                 return (
-                  <NavItem link={"/subpages/" + id} text={id} selected={this.props.pageName === id} subItem key={id}/>
+                  <NavItem link={"/projects/" + id} text={id} selected={this.props.pageName === id} subItem key={id}/>
                 )
               })
             }
           </SubnavSelector>
-          <NavItem link="/" text="Blog" selected={this.props.blog}/>
+          <NavItem link="/subpages/Blog" text="Blog" selected={this.props.blog}/>
         </ul>
       </nav>
     )

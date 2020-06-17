@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Layout, { siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
-import { getSortedPostsData } from '../lib/subpages'
+import { getSortedData } from '../lib/pages'
 
 export default function Home({ ids }) {
   return (
@@ -22,7 +22,7 @@ export default function Home({ ids }) {
 
 export async function getStaticProps() {
 
-  const ids = getSortedPostsData()
+  const ids = getSortedData("projects")
 
   return {
     props: {

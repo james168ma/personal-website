@@ -20,5 +20,5 @@ one of my Unity projects here one day.
 # A Little About this Website
 
 I think this website will mostly be a place for me to show off some of the projects
-I've made over the years. I might add a blog in too if I feel like it. I'll ~~probably~~
+I've made over the years. I added a blog in too because I felt like it. I'll ~~probably~~
 hopefully keep it updated often.
