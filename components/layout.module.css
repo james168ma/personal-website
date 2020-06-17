@@ -154,7 +154,7 @@
   height: 100vh;
   position: fixed;
   background-color: white;
-  opacity: 98%;
+  opacity: 0.98;
 }
 
 .mobileNavbarNav {
