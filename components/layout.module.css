@@ -55,7 +55,7 @@
 
 .backToHome {
   margin: 3rem 0 0;
-  margin-left: 13rem
+  margin-left: 13rem;
 }
 
 .navbar {
@@ -139,7 +139,7 @@
 
 .mobileNavbarNone {
   width: 0rem;
-  border-right: 0rem solid var(--nav-separator-color)
+  border-right: 0rem solid var(--nav-separator-color);
 }
 
 .mobileNavbarShow {
@@ -154,7 +154,7 @@
   height: 100vh;
   position: fixed;
   background-color: white;
-  opacity: 98%
+  opacity: 98%;
 }
 
 .mobileNavbarNav {
