@@ -22,3 +22,9 @@ one of my Unity projects here one day.
 I think this website will mostly be a place for me to show off some of the projects
 I've made over the years. I added a blog in too because I felt like it. I'll ~~probably~~
 hopefully keep it updated often.
+
+# What I'm Working On
+
+Right now I'm working on making a comment section for the blog posts, but that'll
+require me to learn how to make server-generated webpages generated at runtime. hopefully
+I'll have it done soon!

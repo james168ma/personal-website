@@ -7,6 +7,7 @@
   --highlight-color: #9932CC;
   --scrollbar-color: #A9A9A9;
   --nav-separator-color: #E5E5E5;
+  --transition-speed: 200ms;
 }
 
 html,
@@ -43,7 +44,7 @@ body::-webkit-scrollbar-thumb {
 /* large screens */
 @media only screen and (min-width: 600px) {
   main {
-    margin-left: 11rem;
+    margin-left: 13rem;
     padding: 1rem;
     padding-top: 0rem;
   }

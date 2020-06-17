@@ -1,5 +1,5 @@
 .container {
-  max-width: 52rem;
+  max-width: 56rem;
   padding: 0rem 1rem;
   margin: 4rem auto 6rem;
 }
@@ -14,14 +14,20 @@
   .header {
     padding: 0rem 10%;
   }
+  .lastLogoLink {
+    margin-right: auto;
+  }
 }
 
 @media only screen and (max-width: 600px) {
   .logoLink {
-    margin-right: 1rem;
+    margin-right: 1.5rem;
   }
   .header {
     padding: 0rem 3%;
+  }
+  .firstLogoLink {
+    margin-left: auto;
   }
 }
 
@@ -49,7 +55,7 @@
 
 .backToHome {
   margin: 3rem 0 0;
-  margin-left: 11rem
+  margin-left: 13rem
 }
 
 .navbar {
@@ -58,7 +64,7 @@
   height: 100vh;
   position: fixed;
   background-color: white;
-  transition: width 200ms ease-out;
+  transition: width var(--transition-speed) ease;
   overflow: hidden;
 }
 
@@ -80,11 +86,15 @@
 }
 
 .logoLink {
-  /* margin-right: 2rem; */
+
 }
 
 .lastLogoLink {
-  margin-right: auto;
+
+}
+
+.firstLogoLink {
+
 }
 
 .logo {
@@ -106,7 +116,7 @@
 }
 
 .topNavLinks li a {
-  transition: all 0.3s ease 0s;
+  transition: all var(--transition-speed) ease 0s;
 }
 
 .topNavLinks li a:hover {
@@ -119,7 +129,7 @@
   border: none;
   border-radius: 5rem;
   cursor: pointer;
-  transition: all 0.3s ease 0s;
+  transition: all var(--transition-speed) ease 0s;
   outline: none;
 }
 
@@ -127,44 +137,49 @@
   background-color: rgb(221, 160, 221, 0.8);
 }
 
-.mobileNavButton {
-  border: none;
-  outline: none;
-  cursor: pointer;
-  height: 2.5rem;
-  width: 2.5rem;
-  padding: 0rem;
-  margin-right: 1rem;
-  background-color: var(--header-color);
-}
-
-.mobileNavButtonImg {
-  height: 2.5rem;
-}
-
 .mobileNavbarNone {
-  display: none;
+  width: 0rem;
+  border-right: 0rem solid var(--nav-separator-color)
 }
 
 .mobileNavbarShow {
-  display: block;
-}
-
-.mobileNavbar {
-  width: 12rem;
-  padding-top: 1rem;
-  height: 90vh;
-  position: fixed;
-  background-color: white;
+  width: 13rem;
   border-right: 0.2rem solid var(--nav-separator-color);
 }
 
+.mobileNavbar {
+  overflow: hidden;
+  transition: 200ms ease-out;
+  padding-top: 1rem;
+  height: 100vh;
+  position: fixed;
+  background-color: white;
+  opacity: 98%
+}
+
 .mobileNavbarNav {
-  width: 9.5rem;
   list-style: none;
   margin: 0;
   flex-direction: column;
   align-items: center;
   display: flex;
-  height: 100;
+}
+
+.svgButton {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: var(--header-color);
+}
+
+.svgButtonRotate {
+  transform: rotate(135deg);
+}
+
+.svgButtonNotRotate {
+  transform: rotate(0deg);
+}
+
+.svgButtonRotate, .svgButtonNotRotate {
+  transition: var(--transition-speed) ease;
 }
