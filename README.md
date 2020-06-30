@@ -1,10 +1,7 @@
-# james168ma.github.io
+# personal-website
 
-This is my first website!
+This is my personal website used to display my projects and host my blog.
 
-***
-
-Edit: After finding out that gh-pages can only host static pages,
-I decided to deploy my website on Vercel:
+I used React and Node with the Next.js framework to create this website.
 
 Check it out [here](https://james168ma.vercel.app/).
