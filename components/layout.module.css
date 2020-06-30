@@ -17,6 +17,9 @@
   .lastLogoLink {
     margin-right: auto;
   }
+  .headerDiv {
+    padding: 0 2rem;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -29,6 +32,9 @@
   .firstLogoLink {
     margin-left: auto;
   }
+  .headerDiv {
+    padding: 0 1rem 0 0.5rem;
+  }
 }
 
 .header {
@@ -36,11 +42,22 @@
   width: 100vw;
   height: 4rem;
   display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  background-color: var(--header-color);
+  position: fixed;
+}
+
+.headerDiv {
+  display: flex;
   justify-content: flex-end;
   flex-direction: row;
   align-items: center;
-  background-color: var(--header-color);
   position: fixed;
+  height: 4rem;
+  width: 100vw;
+  max-width: 56rem;
+  margin: 0rem auto 0rem auto;
 }
 
 .headerImage {

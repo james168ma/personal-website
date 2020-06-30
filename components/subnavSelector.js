@@ -4,7 +4,8 @@ import utilStyles from '../styles/utils.module.css'
 export default class SubnavSelector extends React.Component {
   constructor(props) {
     super(props)
-    this.state = { collapsed: true }
+    let collapsed = this.props.selected ? false : true
+    this.state = { collapsed }
     this.changeCollapse = this.changeCollapse.bind(this)
     this.collapse = this.collapse.bind(this)
     this.expand = this.expand.bind(this)
@@ -15,21 +16,16 @@ export default class SubnavSelector extends React.Component {
     let elem = this.subnavRef.current
     // get the height of the element's inner content, regardless of its actual size
     const sectionHeight = elem.scrollHeight
-    // temporarily disable all css transitions
     const elementTransition = elem.style.transition
-    elem.style.transition = ''
 
-    // on the next frame (as soon as the previous style change has taken effect),
-    // explicitly set the element's height to its current pixel height, so we
-    // aren't transitioning out of 'auto'
+    elem.style.height = sectionHeight + 'px'
     requestAnimationFrame(function() {
-      elem.style.height = sectionHeight + 'px'
       elem.style.transition = elementTransition
 
       // on the next frame (as soon as the previous style change has taken effect),
-      // remove "height" from the element's inline styles, so it can return to its initial value
+      // change height to 0
       requestAnimationFrame(function() {
-        elem.style.height = null
+        elem.style.height = '0'
       })
     })
 
@@ -49,7 +45,7 @@ export default class SubnavSelector extends React.Component {
       // remove this event listener so it only gets triggered once
       elem.removeEventListener('transitionend', remove)
       // make height auto
-      elem.style.height = 'auto'
+      elem.style.height = '100'
     });
 
     // mark the section as not collapsed
@@ -77,12 +73,14 @@ export default class SubnavSelector extends React.Component {
         )
     )
 
+    const heightStyle = this.state.collapsed ? styles.collapsed : styles.expanded
+
     return (
       <li className={styles.navItem}>
         <a className={styles.navLink} onClick={() => this.changeCollapse()}>
           { innerSpan }
         </a>
-        <div ref={this.subnavRef} className={styles.subnavContent}>
+        <div ref={this.subnavRef} className={styles.subnavContent + ' ' + heightStyle}>
           <ul className={styles.subItems}>
             {this.props.children}
           </ul>

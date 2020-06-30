@@ -46,7 +46,14 @@
 }
 
 .subnavContent {
-  height: 0;
   overflow: hidden;
   transition: height var(--transition-speed) ease;
+}
+
+.collapsed {
+  height: 0
+}
+
+.expanded {
+  height: 100
 }
