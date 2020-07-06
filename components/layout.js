@@ -40,19 +40,23 @@ export default class Layout extends React.Component {
     this.navRef = React.createRef();
   }
 
+  // for checking if on mobile
   componentDidMount() {
     this.updateWindowDimensions();
     global.addEventListener('resize', this.updateWindowDimensions)
   }
 
+  // remove when layout unmounted (webpage closes)
   componentWillUnmount() {
     global.removeEventListener('resize', this.updateWindowDimensions)
   }
 
+  // change the state
   updateWindowDimensions() {
     this.setState({ width: global.innerWidth, height: global.innerHeight })
   }
 
+  // changing the nav button and navbar
   changeMobileNav() {
     if(this.state.mobileNavStyle === styles.mobileNavbarNone) {
       this.setState({
@@ -67,14 +71,13 @@ export default class Layout extends React.Component {
     }
   }
 
+  // toggle nav width when subnav selected
   toggleNavWidth() {
     this.setState({ navbarExtended: !this.state.navbarExtended })
   }
 
   render() {
     let toggledStyle = this.state.navbarExtended ? styles["navbar-extended"] : styles["navbar-regular"]
-    // if(this.state.navbarExtended) toggledStyle = styles["navbar-extended"]
-    // else toggledStyle = styles["navbar-regular"]
 
     let navClass, ulClass, githubLogo
     if(this.state.width > 600) {
@@ -87,6 +90,7 @@ export default class Layout extends React.Component {
       githubLogo = "/images/GitHub-Mark-64px.png"
     }
 
+    // the navbar
     const navBar = (
       <nav className={navClass} ref={this.navRef}>
         <ul className={ulClass}>
@@ -106,6 +110,7 @@ export default class Layout extends React.Component {
         </ul>
       </nav>
     )
+
     return (
       <>
         <Head>
@@ -157,7 +162,3 @@ export default class Layout extends React.Component {
     );
   }
 }
-
-// <button className={styles.mobileNavButton} onClick={() => this.changeMobileNav()}>
-//   <img src={this.state.mobileNavButton} className={styles.mobileNavButtonImg}/>
-// </button>
