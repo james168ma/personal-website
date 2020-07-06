@@ -4,6 +4,7 @@
   margin: 4rem auto 6rem;
 }
 
+/* big screens */
 @media only screen and (min-width: 600px) {
   .container {
     margin: 5rem auto 6rem;
@@ -20,8 +21,12 @@
   .headerDiv {
     padding: 0 2rem;
   }
+  .backToHome {
+    margin-left: 13rem;
+  }
 }
 
+/* small screens */
 @media only screen and (max-width: 600px) {
   .logoLink {
     margin-right: 1.5rem;
@@ -34,6 +39,9 @@
   }
   .headerDiv {
     padding: 0 1rem 0 0.5rem;
+  }
+  .backToHome {
+    margin-left: 0rem;
   }
 }
 
@@ -70,8 +78,7 @@
 }
 
 .backToHome {
-  margin: 3rem 0 0;
-  margin-left: 13rem;
+  margin-top: 3rem;
 }
 
 .navbar {
@@ -101,25 +108,9 @@
   min-height: 9rem;
 }
 
-.logoLink {
-
-}
-
-.lastLogoLink {
-
-}
-
-.firstLogoLink {
-
-}
-
 .logo {
   cursor: pointer;
   height: 2.5rem;
-}
-
-.topNav {
-
 }
 
 .topNavLinks {
