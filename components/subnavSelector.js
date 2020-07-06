@@ -52,6 +52,7 @@ export default class SubnavSelector extends React.Component {
     this.setState({ collapsed: false })
   }
 
+  // toggle the collapsed state
   changeCollapse() {
     this.props.toggleNav()
     if(this.state.collapsed) this.expand()
@@ -59,6 +60,7 @@ export default class SubnavSelector extends React.Component {
   }
 
   render() {
+    // if selected, have the mark
     const innerSpan = (
       this.props.selected ?
         (
@@ -73,6 +75,7 @@ export default class SubnavSelector extends React.Component {
         )
     )
 
+    // css style for either collapsed or expanded
     const heightStyle = this.state.collapsed ? styles.collapsed : styles.expanded
 
     return (
