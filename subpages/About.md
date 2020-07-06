@@ -9,8 +9,8 @@ priority: 0
 I'm James Ma, and I'm currently a second-year undergraduate student at UCLA
 studying Computer Science. I decided to learn some React because I had nothing
 to do while I was quarantined during the summer of 2020. The result is this
-personal website thingy I've built, mostly for fun but, I guess it could go on
-my resume (\*ahem\* recruiters please notice me).
+personal website I've built, mostly for fun but, I guess it could go on
+my resume.
 
 As of June 2020, I'm interested in learning more about full-stack development
 because building the front end of this website was fun (we'll see about the back
