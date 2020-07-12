@@ -5,15 +5,8 @@ import Link from 'next/link'
 export default function NavItem({ text, link, selected, subItem, target, href }) {
   // if selected have the purple mark
   const inner = (
-    selected ? (
-      <>
-        {!subItem && <span className={styles.mark} />}
-        <span className={styles.linkText + " " + styles.selectedLinkText}>{text}</span>
-      </>
-    ) : (
       <span className={styles.linkText}>{text}</span>
-  ))
-
+  )
 
   // different types of links
   let aLink
@@ -51,6 +44,9 @@ export default function NavItem({ text, link, selected, subItem, target, href })
 
   return (
     <li className={styles.navItem}>
+      {selected && !subItem &&
+        <span className={styles.mark} />
+      }
       {outerLink}
     </li>
   )

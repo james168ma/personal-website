@@ -64,10 +64,7 @@ export default class SubnavSelector extends React.Component {
     const innerSpan = (
       this.props.selected ?
         (
-          <>
-            <span className={styles.mark} />
-            <span className={styles.linkText + " " + styles.selectedLinkText}>{this.props.text}</span>
-          </>
+          <span className={styles.linkText + " " + styles.selectedLinkText}>{this.props.text}</span>
         )
         :
         (
@@ -80,6 +77,9 @@ export default class SubnavSelector extends React.Component {
 
     return (
       <li className={styles.navItem}>
+        {this.props.selected &&
+          <span className={styles.mark} />
+        }
         <a className={styles.navLink} onClick={() => this.changeCollapse()}>
           { innerSpan }
         </a>
