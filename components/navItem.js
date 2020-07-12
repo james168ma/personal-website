@@ -2,7 +2,7 @@ import styles from './navItem.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
-export default function NavItem({ text, link, selected, subItem, target }) {
+export default function NavItem({ text, link, selected, subItem, target, href }) {
   // if selected have the purple mark
   const inner = (
     selected ? (
@@ -14,24 +14,44 @@ export default function NavItem({ text, link, selected, subItem, target }) {
       <span className={styles.linkText}>{text}</span>
   ))
 
-  // if there is a target, let the link have a target
-  const aLink = (
-    target ? (
+
+  // different types of links
+  let aLink
+
+  if (target) {
+    aLink = (
       <a className={styles.navLink} target={target}>
         {inner}
       </a>
-    ) : (
+    )
+  } else if (href) {
+    aLink = (
+      <a className={styles.navLink} href={href}>
+        {inner}
+      </a>
+    )
+  } else {
+    aLink = (
       <a className={styles.navLink}>
         {inner}
       </a>
+    )
+  }
+
+  // figuring out if we need next/link
+  const outerLink = (
+    link ? (
+      <Link href={link}>
+        {aLink}
+      </Link>
+    ) : (
+      aLink
     )
   )
 
   return (
     <li className={styles.navItem}>
-      <Link href={link}>
-        {aLink}
-      </Link>
+      {outerLink}
     </li>
   )
 }
