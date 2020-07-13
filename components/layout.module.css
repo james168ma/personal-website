@@ -6,6 +6,9 @@
 
 /* big screens */
 @media only screen and (min-width: 600px) {
+  .nameLogo {
+    margin-left: 1.5rem;
+  }
   .container {
     margin: 5rem auto 6rem;
   }
@@ -29,7 +32,7 @@
 /* small screens */
 @media only screen and (max-width: 600px) {
   .nameLogo {
-    padding-left: 1rem;
+    margin-left: 2.3rem;
   }
   .logoLink {
     margin-right: 1.5rem;
@@ -74,7 +77,6 @@
 }
 
 .nameLogo {
-  margin-left: 1.5rem;
   white-space: nowrap;
   background-image: url(/images/purple.jpg);
   background-clip: text;

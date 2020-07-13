@@ -78,7 +78,7 @@ export default class Layout extends React.Component {
     const navBar = (
       <nav className={navClass} ref={this.navRef}>
         {(this.state.width <= 600) &&
-          <text className={styles.nameLogo + " " + utilStyles.headingXl}>jm</text>
+          <text className={utilStyles.headingXl + " " + styles.nameLogo}>jm</text>
         }
         <ul className={ulClass}>
           <NavItem link="/" text="Home" selected={this.props.home}/>
@@ -119,7 +119,7 @@ export default class Layout extends React.Component {
           </button>
         }
         {(this.state.width > 600) &&
-          <text className={styles.nameLogo + " " + utilStyles.headingXl}>jm</text>
+          <text className={utilStyles.headingXl + " " + styles.nameLogo}>jm</text>
         }
         <a href="https://github.com/james168ma" target="_blank" className={styles.logoLink + " " + styles.firstLogoLink}><img src={githubLogo} className={styles.logo}/></a>
         <a href="https://www.linkedin.com/in/james168ma" target="_blank" className={styles.logoLink + " " + styles.lastLogoLink}><img src="/images/LinkedIn_logo.png" className={styles.logo} /></a>
