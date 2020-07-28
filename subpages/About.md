@@ -9,13 +9,14 @@ priority: 0
 I'm James Ma, and I'm currently a second-year undergraduate student at UCLA
 studying Computer Science. I decided to learn some React because I had nothing
 to do while I was quarantined during the summer of 2020. The result is this
-personal website I've built, mostly for fun but, I guess it could go on
-my resume.
+personal website I've built, mostly for fun but also for my resume.
 
-As of June 2020, I'm interested in learning more about full-stack development
-because building the front end of this website was fun (we'll see about the back
-end). I also really want to learn game development with Unity, so maybe I'll post
-one of my Unity projects here one day.
+As of July 2020, I'm interested in learning more about full-stack development
+because building the front end of this website and tinkering with an AWS backend
+on a [different project](https://comments-demo.vercel.app/) was fun. I also really want to learn game development with
+Unity, so maybe I'll post one of my Unity projects here one day. Recently, I've come
+up with the idea for an app that will let you set reminders, but the reminders will
+be rude in a funny way. It'll be a good way to get me into mobile development.
 
 # A Little About this Website
 
@@ -25,6 +26,5 @@ hopefully keep it updated often.
 
 # What I'm Working On
 
-Right now I'm working on making a comment section for the blog posts, but that'll
-require me to learn how to make server-generated webpages generated at runtime. hopefully
-I'll have it done soon!
+Right now I'm taking a small break from programming projects. Of course, I'm still doing
+LeetCode though.

@@ -16,8 +16,8 @@ export default function Home({ ids }) {
           and Node.js with the Next.js framework. Feel free to click around and explore!
         </p>
         <p>
-          Currently, the website is still under construction so things might not look the cleanest
-          in some areas. Also, there are no blog posts at the moment :(
+          <b>If you are a recruiter</b>, just keep in mind that this website is also my personal blog
+          in addition to a space to show my projects, so most my site is written in an informal manner.
         </p>
       </section>
     </Layout>
