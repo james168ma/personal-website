@@ -22,7 +22,7 @@ Play it [here](https://james168ma.github.io/AsteroidsGame/)!
 
 *Hint: just press 'w' and the spacebar for the first level.*
 
-The GitHub [repo](https://github.com/james168ma/AsteroidsGame).
+[The GitHub repo](https://github.com/james168ma/AsteroidsGame).
 
 ## Chemotaxis (Java)
 
@@ -37,7 +37,7 @@ Play it [here](https://james168ma.github.io/Chemotaxis/)!
 
 *Be warned: there are* ***many*** *flashing lights.*
 
-The GitHub [repo](https://github.com/james168ma/Chemotaxis).
+[The GitHub repo](https://github.com/james168ma/Chemotaxis).
 
 ## The rest of my APCS projects (also in Java)
 
@@ -50,7 +50,7 @@ The name basically describes it.
 
 Play it [here](https://james168ma.github.io/Minesweeper/)!
 
-The GitHub [repo](https://github.com/james168ma/Minesweeper).
+[The GitHub repo](https://github.com/james168ma/Minesweeper).
 
 ### Fractal Tree
 
@@ -58,7 +58,7 @@ A tree image that is randomly generated using skewed fractals and recursion.
 
 Look at it [here](https://james168ma.github.io/FractalTree/)!
 
-The GitHub [repo](https://github.com/james168ma/FractalTree).
+[The GitHub repo](https://github.com/james168ma/FractalTree).
 
 ### Original Fractal
 
@@ -66,7 +66,7 @@ A cool recursive design that follows your mouse (within a certain range).
 
 Try it out [here](https://james168ma.github.io/OriginalFractal/)!
 
-The GitHub [repo](https://github.com/james168ma/OriginalFractal).
+[The GitHub repo](https://github.com/james168ma/OriginalFractal).
 
 ### Sierpinski Triangle
 
@@ -74,7 +74,7 @@ A Sierpinski Triangle made using recursion.
 
 Look at it [here](https://james168ma.github.io/SierpinskiTriangle/)!
 
-The GitHub [repo](https://github.com/james168ma/SierpinskiTriangle).
+[The GitHub repo](https://github.com/james168ma/SierpinskiTriangle).
 
 ### Starfield
 
@@ -82,7 +82,7 @@ A program that shoots a firework when you click on it. This one looks really coo
 
 Try it out [here](https://james168ma.github.io/Starfield/)!
 
-The GitHub [repo](https://github.com/james168ma/Starfield).
+[The GitHub repo](https://github.com/james168ma/Starfield).
 
 ### Dice
 
@@ -90,7 +90,7 @@ A program that rolls many dice (that's plural right?) and shows you the statisti
 
 Try it out [here](https://james168ma.github.io/Dice/)!
 
-The GitHub [repo](https://github.com/james168ma/Dice).
+[The GitHub repo](https://github.com/james168ma/Dice).
 
 ### Lightning
 
@@ -98,7 +98,7 @@ A program that displays rainbow(?) lightning. (I, too, question my design choice
 
 Look at it [here](https://james168ma.github.io/Lightning/)!
 
-The GitHub [repo](https://github.com/james168ma/Lightning).
+[The GitHub repo](https://github.com/james168ma/Lightning).
 
 ### Original Design
 
@@ -107,4 +107,4 @@ if you look too long.
 
 Look at it [here](https://james168ma.github.io/OriginalDesign/)!
 
-The GitHub [repo](https://github.com/james168ma/OriginalDesign).
+[The GitHub repo](https://github.com/james168ma/OriginalDesign).

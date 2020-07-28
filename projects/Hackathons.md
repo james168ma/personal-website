@@ -19,4 +19,4 @@ at the hackathon ([HOTH7](https://hoth7.devpost.com/))!
 
 Read more about it on [Devpost](https://devpost.com/software/meteor-metronome).
 
-The GitHub [repo](https://github.com/Lancival/HOTHVII).
+[The GitHub repo](https://github.com/Lancival/HOTHVII).
