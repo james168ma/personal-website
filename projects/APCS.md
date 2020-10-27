@@ -52,14 +52,6 @@ Play it [here](https://james168ma.github.io/Minesweeper/)!
 
 [The GitHub repo](https://github.com/james168ma/Minesweeper).
 
-### Fractal Tree
-
-A tree image that is randomly generated using skewed fractals and recursion.
-
-Look at it [here](https://james168ma.github.io/FractalTree/)!
-
-[The GitHub repo](https://github.com/james168ma/FractalTree).
-
 ### Original Fractal
 
 A cool recursive design that follows your mouse (within a certain range).
@@ -68,13 +60,17 @@ Try it out [here](https://james168ma.github.io/OriginalFractal/)!
 
 [The GitHub repo](https://github.com/james168ma/OriginalFractal).
 
+### Fractal Tree
+
+A tree image that is randomly generated using skewed fractals and recursion.
+
+Look at it [here](https://james168ma.github.io/FractalTree/)!
+
 ### Sierpinski Triangle
 
 A Sierpinski Triangle made using recursion.
 
 Look at it [here](https://james168ma.github.io/SierpinskiTriangle/)!
-
-[The GitHub repo](https://github.com/james168ma/SierpinskiTriangle).
 
 ### Starfield
 
@@ -82,15 +78,11 @@ A program that shoots a firework when you click on it. This one looks really coo
 
 Try it out [here](https://james168ma.github.io/Starfield/)!
 
-[The GitHub repo](https://github.com/james168ma/Starfield).
-
 ### Dice
 
 A program that rolls many dice (that's plural right?) and shows you the statistics.
 
 Try it out [here](https://james168ma.github.io/Dice/)!
-
-[The GitHub repo](https://github.com/james168ma/Dice).
 
 ### Lightning
 
@@ -98,13 +90,9 @@ A program that displays rainbow(?) lightning. (I, too, question my design choice
 
 Look at it [here](https://james168ma.github.io/Lightning/)!
 
-[The GitHub repo](https://github.com/james168ma/Lightning).
-
 ### Original Design
 
 An infinite loading splash screen. It looks pretty satisfying, but you'll get fustrated
 if you look too long.
 
 Look at it [here](https://james168ma.github.io/OriginalDesign/)!
-
-[The GitHub repo](https://github.com/james168ma/OriginalDesign).
