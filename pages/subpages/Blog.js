@@ -15,7 +15,7 @@ export default function Blog({ ids, allPostsData }) {
       <section className={utilStyles.headingMd}>
         <p>
           This is my blog, and I'll probably periodically post random stuff here from time to time.
-          The posts are completely informal, and my writing is pretty bad, so enjoy.
+          The posts are completely informal, but I hope you enjoy them!
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
