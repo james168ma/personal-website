@@ -14,7 +14,7 @@ personal website I've built, mostly for fun but also for my resume.
 As of November 2020, I'm fully buried in CS homework and very little time
 on my hands to work on my own projects (although I do make time to do so occasionally).
 However, I'm still always open to learning through building, and hopefully I will
-get some more time to work the [multiplayer FPS](https://github.com/james168ma/Simpleton) 
+get some more time to work on the [multiplayer FPS](https://github.com/james168ma/Simpleton) 
 game that I started building using Unity.
 
 

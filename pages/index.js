@@ -17,7 +17,7 @@ export default function Home({ ids }) {
         </p>
         <p>
           <b>If you are a recruiter</b>, just keep in mind that this website is also my personal blog
-          in addition to a space to show my projects, so most my site is written in an informal manner.
+          in addition to a space to show my projects, so most of my site is written in an informal manner.
         </p>
       </section>
     </Layout>

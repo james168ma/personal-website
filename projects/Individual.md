@@ -4,10 +4,6 @@ priority: 1
 ---
 # Individual Projects!
 
-I am still in the process of buffing up this part of my project portfolio, as I don't
-have that many projects that I've just made on my own yet, but I'm proud of the few
-that I have.
-
 ## Personal Website (React.js)
 
 It's this website! You're already here!
