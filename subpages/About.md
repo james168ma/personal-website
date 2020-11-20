@@ -11,12 +11,12 @@ studying Computer Science. I decided to learn some React because I had nothing
 to do while I was quarantined during the summer of 2020. The result is this
 personal website I've built, mostly for fun but also for my resume.
 
-As of July 2020, I'm interested in learning more about full-stack development
-because building the front end of this website and tinkering with an AWS backend
-on a [different project](https://comments-demo.vercel.app/) was fun. I also really want to learn game development with
-Unity, so maybe I'll post one of my Unity projects here one day. Recently, I've come
-up with the idea for an app that will let you set reminders, but the reminders will
-be rude in a funny way. It'll be a good way to get me into mobile development.
+As of November 2020, I'm fully buried in CS homework and very little time
+on my hands to work on my own projects (although I do make time to do so occasionally).
+However, I'm still always open to learning through building, and hopefully I will
+get some more time to work the [multiplayer FPS](https://github.com/james168ma/Simpleton) 
+game that I started building using Unity.
+
 
 # A Little About this Website
 
@@ -26,5 +26,5 @@ hopefully keep it updated often.
 
 # What I'm Working On
 
-Right now I'm taking a small break from programming projects. Of course, I'm still doing
-LeetCode though.
+Right now I'm working on a multiplay FPS game called [Simpleton](https://github.com/james168ma/Simpleton). 
+It's built with Unity.

@@ -4,9 +4,19 @@ priority: 2
 ---
 # Hackathon Projects!
 
-So, as of June 2020, I've been to a grand total of **one** hackathon. Okay, I know, I'm
-a newbie to this kind of stuff but at least I was able to learn some new skills and
-help my team win the prize for the best game.
+## Clique (React + Firebase)
+
+![A picture of the Clique Chat page.](/images/Clique.png)
+
+The project I made with my team during [YHack 2020](https://yhack2020.devpost.com/).
+
+I talk about it in detail in [this blog post](/subpages/Blog/YHack2020).
+
+Read more about it on [Devpost](https://devpost.com/software/clique-a3zdwr).
+
+[The GitHub repo](https://github.com/dchung21/clique).
+
+
 
 ## Meteor Metronome (Unity + C#)
 
