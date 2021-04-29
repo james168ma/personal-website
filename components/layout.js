@@ -93,7 +93,7 @@ export default class Layout extends React.Component {
             }
           </SubnavSelector>
           <NavItem link="/subpages/Blog" text="Blog" selected={this.props.blog || this.props.blogPost}/>
-          <NavItem link="/documents/JamesMa2021Resume.pdf" target="_blank" text="Resume"/>
+          {/* <NavItem link="/documents/JamesMa2021Resume.pdf" target="_blank" text="Resume"/> */}
           <NavItem href="mailto:james168ma@gmail.com" text="Contact"/>
         </ul>
       </nav>
