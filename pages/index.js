@@ -10,14 +10,10 @@ export default function Home({ ids }) {
         <title>{siteTitle}</title>
       </Head>
       <h1 className={utilStyles.heading2Xl}>Welcome!</h1>
-      <section className={utilStyles.headingMd}>
+      <section className={utilStyles.homeParagraph}>
         <p>
           Looks like you've found your way to my website. It's made with React
           and Node.js with the Next.js framework. Feel free to click around and explore!
-        </p>
-        <p>
-          <b>If you are a recruiter</b>, just keep in mind that this website is also my personal blog
-          in addition to a space to show my projects, so most of my site is written in an informal manner.
         </p>
       </section>
     </Layout>
