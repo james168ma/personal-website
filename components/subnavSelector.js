@@ -1,5 +1,6 @@
 import styles from './subnavSelector.module.css'
 import utilStyles from '../styles/utils.module.css'
+import React from 'react'
 
 export default class SubnavSelector extends React.Component {
   constructor(props) {
